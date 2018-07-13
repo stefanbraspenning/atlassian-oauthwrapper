@@ -1,0 +1,15 @@
+{
+    "name": "stefanbraspenning/atlassian-oauthwrapper",
+    "description": "Atlassian PHP OAuthWrapper",
+    "keywords": ["atlassian", "jira", "oauth", "guzzle"],
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Atlassian\\": "src/"
+         }
+    },
+    "minimum-stability": "dev",
+    "require": {
+        "guzzle/guzzle": "3.0.*"
+    }
+}
